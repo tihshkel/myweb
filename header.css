@@ -1,0 +1,109 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 18px 112px;
+  }
+  
+  .logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo-text {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 32px;
+  }
+  
+  .nav-item {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(71, 84, 103, 1);
+  }
+  
+  .logo {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .btn-log-in,
+  .btn-sign-up {
+    padding: 10px 18px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    border: none;
+  }
+  
+  .nav-actions {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .btn-log-in {
+    color: rgba(71, 84, 103, 1);
+    background-color: transparent;
+  }
+  
+  .btn-sign-up {
+    color: #ffffff;
+    background-color: #000000;
+    box-shadow: 0px 1px 2px #222222;
+    border-radius: 8px;
+  }
+  
+  .hamburger-menu {
+    display: none;
+  }
+  
+  .select-products {
+    width: 98px;
+    border: none;
+    outline: none;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #303030;
+    background: transparent
+      url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat
+      100% center;
+    background-size: 12px 12px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    header {
+      padding: 16px 20px;
+    }
+  
+    .nav {
+      display: none;
+    }
+  
+    .nav-actions {
+      display: none;
+    }
+  
+    .hamburger-menu {
+      display: initial;
+      width: 42px;
+      cursor: pointer;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .hamburger-menu {
+      width: 32px;
+    }
+  }
